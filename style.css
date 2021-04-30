@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+}
+
+header{
+    background-color: #2C2F33;
+    height: 10vh;
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.center-nav{
+    display: flex;
+     justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 5vh;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+ main{
+     background-color: #2C2F33;
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+}
+
+article{
+    width: 50vw;
+    height: 27vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.float-form{
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.table, .form{
+    /* margin: 20vw; */
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-title{ 
+    display: flex;
+    justify-content: center;
+}
+h5{
+    margin-bottom: 1vh;
+}
+.input-title, .input-author {
+    margin-bottom: 15px;
+}
+#title, #author, #pages{
+    background-color: #23272A;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    outline: none;
+    border: none;
+    width: 25vw;
+    /* border-bottom: 3px solid #7289DA; */
+}
+
+
+
+input:focus { 
+    border: 1px solid #7289DA;
+}
+
+.submit{
+    background-color: #23272A;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    outline: none;
+    border: none;
+    width: 25vw;
+    background-color: #7289DA;
+}
+h5{
+    color: #8e9297;
+}
+
+td, th {
+
+text-align: center;
+padding: 8px;
+}
+
+
+.float-table { 
+    display: flex;
+    justify-content: center;
+}
+
+table{
+        background-color: #7289DA;
+
+}
+
+
+#delete{
+    background-color:red;
+    color: white;
+}
+
+.addBook{
+    display: none;
+    flex-direction: column;
+}
+
+.addButton { 
+    display: flex;
+    justify-content: center;
+}
+
